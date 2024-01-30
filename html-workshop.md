@@ -33,6 +33,8 @@ description: |
 
 ## Basic Structure
 
+## Inline vs Block Elements
+
 ## Head -- Describing Information About the Page
 
 ## Common Head Tags
@@ -41,11 +43,19 @@ description: |
 
 ## Common Body Tags
 
-## Inline vs Block Elements
-
 ## Images and Alt Text
 
 ## Links -- The Anchor Tag
+
+## Lists -- Ordered and Unordered
+
+## Table
+
+## Div
+
+## Form -- Send Data to Servers
+
+## Form Controls & Labels
 
 # CSS -- Stylingand Themeing Elements
 
@@ -61,7 +71,17 @@ description: |
 
 ## CSS Colour Values
 
+### Gradients
+
 ## Spacing -- Padding, Margin, and Units
+
+## Fonts
+
+## List Properties
+
+## Background Images
+
+## Positioning w/ position/margin/padding
 
 ## Basic Layout with CSS Flexbox
 
