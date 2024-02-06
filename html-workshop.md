@@ -27,9 +27,9 @@ description: |
 
 ### Tags
 
-### Attributes
-
 ### Nesting Tags
+
+### Attributes
 
 ## Basic Structure
 
@@ -56,6 +56,8 @@ description: |
 ## Form -- Send Data to Servers
 
 ## Form Controls & Labels
+
+## Exercise
 
 # CSS -- Stylingand Themeing Elements
 
@@ -85,11 +87,13 @@ description: |
 
 ## Basic Layout with CSS Flexbox
 
+## Exercise
+
 # JavaScript -- Adding Interactivity
 
 *tbd*
 
-# Exercise
+## Exercise
 
 # Conclusion
 
