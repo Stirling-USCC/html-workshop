@@ -13,9 +13,26 @@ description: |
 
 ## How Web Pages Work
 
-1. Browser requests page
-2. Server responds wwith instructions on how to build page
-3. These instructions are written in HTML, CSS, JavaScript, etc
+The internet and its world-wide web has had a profound impact on all of our lives. It has put an unimagineably large
+wealth of [mis]information at our fingertips, connected us to people on the other side of  the plannet, and
+fundamentally changed how day-to-day business is conducted in the 21st century. But have you ever stopped to think about
+how your browser is able to show you a complex, feature rich, and eye-catching page, seemingly out of the
+ether?
+
+### 1. Browser Requests Page
+
+First, the browser looks up and connects to the server you're trying to access. It then asks the server for the specific
+page you're trying to load, using the [HyperText Transfer Protocol (HTTP)][http], which is a specification of how the
+messages between the web-browser and the web-server are structured. We'll be covering the HTTP protocol in much more
+detail in a [later workshop][http-workshop].
+
+[http]: <https://en.wikipedia.org/wiki/HTTP>
+[http-workshop]: <https://github.com/stirling-ussc/http-workshop?usid=24&utid=5945885315>
+
+## Web Server Sends Response
+
+The web-server then responds with instructions on how to build the page. There instructions are written in HTML, CSS,
+and JavaScript, and these are the three technologies we will be teaching you how to write today.
 
 ## The Roles of HTML, CSS and JavaScript
 
