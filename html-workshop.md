@@ -92,15 +92,11 @@ and JavaScript, and these are the three technologies we will be teaching you how
 
 ### Gradients
 
-## Spacing -- Padding, Margin, and Units
-
-## Fonts
-
-## List Properties
-
 ## Background Images
 
-## Positioning w/ position/margin/padding
+## Spacing, Units
+
+## Positioning With position/margin/padding
 
 ## Basic Layout with CSS Flexbox
 
