@@ -29,7 +29,7 @@ detail in a [later workshop][http-workshop].
 [http]: <https://en.wikipedia.org/wiki/HTTP>
 [http-workshop]: <https://github.com/stirling-ussc/http-workshop?usid=24&utid=5945885315>
 
-## Web Server Sends Response
+### 2. Web Server Sends Response
 
 The web-server then responds with instructions on how to build the page. There instructions are written in HTML, CSS,
 and JavaScript, and these are the three technologies we will be teaching you how to write today.
