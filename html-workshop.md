@@ -106,11 +106,17 @@ and JavaScript, and these are the three technologies we will be teaching you how
 
 ## Exercise
 
-# JavaScript -- Adding Interactivity
+# Publishing Your Website
 
-*tbd*
+## Github Pages
 
-## Exercise
+## Creating a Repository
+
+## Commit Your Code
+
+## Enable Github Pages
+
+## View Your site!
 
 # Conclusion
 
