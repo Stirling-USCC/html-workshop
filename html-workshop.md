@@ -111,7 +111,21 @@ and JavaScript, and these are the three technologies we will be teaching you how
 ## Commit Your Code
 
 ## Enable Github Pages
+Now we will teach you how to [Create a GitHub pages site](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site).
+This lets you publish your website on the internet using GitHub pages to host it.
 
+To create a GitHub pages site for your website you must have a public repository containing the files you're website is made from.
+
+GitHub will looks for the index.html (or index.md or README.md) file of your website to use as the entry file for your site. You must include the site entry file at the top of the repository directory or at the top level of the directory which you have set as the source directory.
+
+Right. Now, how to create a GitHub pages site for your website from your GitHub repository for your website?
+ 1. go to your repo
+ 2. go to the setting tab
+ 3. go to the **pages** section under **code and automation** in the settings tab
+ 4. leave source as deploy from branch
+ 5. select the main branch or whichever branch of your repo you want your website to be built from
+ 6. click save
+ 7. wait a few minutes for your website to publish
 ## View Your site!
 
 # Conclusion
