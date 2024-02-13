@@ -76,15 +76,55 @@ and JavaScript, and these are the three technologies we will be teaching you how
 
 ## Exercise
 
-# CSS -- Stylingand Themeing Elements
+# CSS -- Styling and Themeing Elements
 
 ## Introduction
+
+While HTML describes the *content* of the document and how it is *structure*ed, CSS tells your browser how to *style* said content.
 
 ## Linking a Style Sheet in HTML
 
 ## Syntax
 
+CSS rules are laid out as follows --
+
+```
+<selector> {
+    <directive> ;
+    <directive> ;
+    ...
+    <directive> ;
+}
+
+<selector> {
+    <directive> ;
+    <directive> ;
+}
+```
+
+and so on.
+
 ## CSS Selectors
+
+Each selector tells CSS *which* elements to apply the directives to. Selectors can be one of three *main* types - tag selectors, class selectors, and id selectors
+
+tag selectors apply to *all* elements of a particular type. So we might, for example, have a CSS directive that applies to *all* `img` tags or *all* `h1` tags, and so on.
+class selectors apply to all elements which have declared themselves to be part of a specific CSS class. So a CSS rule applying to `.someclass` would apply to *all* elements that have `class=someclass` in their HTML attributes
+id selectors apply to one and only one element. A CSS rule for `#xyz` would apply *only* to the HTML element with `id=xyz` in its attributes
+
+tag selectors are useful when you are sure that all elements of some type need some common formatting. For example, all `h1` elements should be of font xyz and of font-size n, etc.
+class selectors are useful if there are multiple elements which need some common formatting, but are not all of the same element type. For example, we could have a rule that emphasises some text with a class selector of `.emphasis`. This allows us to emphasis text in any tag with a `class=emphasis` attribute, so this can be applied to `h1` *or* `a` *or* `p`, etc.
+id selectors are useful when we want to apply *one-off* rules. So if we had, for example, a logo image in the header for our webpage which we wanted to show at a small resolution, we could set a `id=logoimg` in the `img` tag for *that particular* image and a CSS rule with a `#logoimg` selector; this ensures that the CSS rule applies to only that element *and* that we don't have to create entire class just for that one element.
+
+The other kinds of CSS selectors are -
+
+Adjacent sibling
+
+Child
+
+Descendent
+
+There are many other CSS selectors covering more specific use cases, but the ones covered are the most used/important. For full details on CSS selectors refer to: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors
 
 ## Common Properties
 
