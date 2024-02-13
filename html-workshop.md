@@ -131,15 +131,31 @@ There are many other CSS selectors covering more specific use cases, but the one
 
 ## Common Properties
 
+border
+fonts
+background
+background-image
+text-align
+font-size
+width
+height
+
 ## CSS Colour Values
 
-### Gradients
+CSS `color`- properties can be set in multiple ways -
+   -  By color names
+   -  As RGB values
+   -  As hexadecimal values
 
-## Background Images
+## Gradients
 
 ## Spacing, Units
 
 ## Positioning With position/margin/padding
+
+padding
+margin
+position
 
 ## Basic Layout with CSS Flexbox
 
