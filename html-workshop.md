@@ -118,11 +118,14 @@ id selectors are useful when we want to apply *one-off* rules. So if we had, for
 
 The other kinds of CSS selectors are -
 
-Adjacent sibling
+Adjacent sibling: `h2 + p`
+    - Applies to all `p` elements that are siblings of `h2` elements in the HTML tree
 
-Child
+Child: `li > ul`
+    - Applies to all `ul` elements that are *directly* a child of an `li` element
 
-Descendent
+Descendent: `ul a`
+    - Applies to all `a` elements that are directly *or* indirectly the child of a `ul` element
 
 There are many other CSS selectors covering more specific use cases, but the ones covered are the most used/important. For full details on CSS selectors refer to: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors
 
