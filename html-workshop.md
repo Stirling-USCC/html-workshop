@@ -799,6 +799,51 @@ position
 
 ## Basic Layout with CSS Flexbox
 
+Flexbox, short for Flexible Box, is a layout model in CSS that allows you to design complex layouts more efficiently and with less code. It provides a way to distribute space and align items within a container, even when their size is unknown or dynamic.
+
+To use Flexbox, you first designate a container as a flex container by applying display: flex; to it. This property turns all direct children of the container into flexible items.
+
+```css
+.flex-container {
+  display: flex;
+}
+```
+
+The flex-direction property defines the direction in which the flex items are placed in the flex container. It can be set to row, column, row-reverse, or column-reverse.
+
+```css
+.flex-container {
+  display: flex;
+  flex-direction: row; /* or column, row-reverse, column-reverse */
+}
+```
+
+The align-items property aligns flex items along the cross-axis. It can be set to flex-start, flex-end, center, stretch, or baseline.
+
+```css
+.flex-container {
+  display: flex;
+  align-items: center; /* or flex-start, flex-end, stretch, baseline */
+}
+```
+
+The justify-content property aligns flex items along the main axis. It can be set to flex-start, flex-end, center, space-between, space-around, or space-evenly.
+
+```css
+.flex-container {
+  display: flex;
+  justify-content: space-between; /* or flex-start, flex-end, center, space-around, space-evenly */
+}
+```
+
+Each child element of a flex container becomes a flex item. You can adjust the size of flex items using properties like flex-grow, flex-shrink, and flex-basis.
+
+```css
+.flex-item {
+    flex: 1; /* shorthand for flex-grow, flex-shrink, and flex-basis */
+}
+```
+
 ## Exercise
 
 # Publishing Your Website
