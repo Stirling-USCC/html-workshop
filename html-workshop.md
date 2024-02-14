@@ -583,6 +583,29 @@ Page 1<hr>Page 2
   </tfoot>
 </table>
 
+## Structural Tags
+
+These structural tags provide a semantic and meaningful way to structure the content of a webpage. By using these tags
+appropriately, you enhance the readability, accessibility, and search engine optimization (SEO) of your HTML documents.
+
+1. ### `<main>`
+   - Represents the main content of the document. It should not contain content that is tangential or related to the site navigation.
+
+2. ### `<header>`
+   - Defines a header section usually containing the introductory content of a page, such as headings, logos, and navigation elements.
+
+3. ### `<footer>`
+   - Represents the footer of a section or page, typically containing metadata, copyright information, links to related pages, or contact details.
+
+4. ### `<nav>`
+   - Defines a navigation menu. It usually contains links to different sections or pages of the website.
+
+5. ### `<article>`
+   - Represents a self-contained piece of content that could be distributed and reused independently, such as a news article, blog post, or forum post.
+
+6. ### `<aside>`
+   - Represents content that is tangentially related to the content around it, such as a sidebar or a pull quote. It can also be used for content like related links or advertisements.
+
 ## Exercise
 
 # CSS -- Styling and Themeing Elements
